@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body tam ekran və mərkəz üçün */
+
+
+.saat {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#count {
+    font-size: 6rem;
+    color: black;
+    text-shadow: 0 0 5px orangered, 0 0 10px #ff2400, 0 0 20px #00ffea, 0 0 40px #00ffea;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black, 0 0 40px black;
+    font-family: "DS-Digital";
+}
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    top: 62vh;
+    left: 51vh;
+    right: 49vh;
+    font-size: 30px;
+    font-weight: 700;
+}
